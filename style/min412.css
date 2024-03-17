@@ -1107,16 +1107,16 @@
   }
   .container_alt .section_six .card {
     position: relative;
-    width: 177px;
-    height: 278px;
+    width: 175px;
+    height: 276px;
     border: 1px solid transparent;
   }
   .container_alt .section_six .card:nth-child(3) {
     height: 320px;
   }
   .container_alt .section_six .card img {
-    width: 177px;
-    height: 278px;
+    width: 174px;
+    height: 276px;
     border-radius: 10px;
   }
   .container_alt .section_six .card:nth-child(3){
@@ -1208,7 +1208,7 @@
     width: 100%;
     height: 100%;
     padding-top: 30px;
-    gap: 2px;
+   justify-content: space-between;
     border: 1px solid transparent;
     display: flex;
     flex-wrap: wrap;
@@ -1219,7 +1219,7 @@
     display: flex;
     align-items: center;
     gap: 10px;
-    width: 180px;
+    width: 175px;
     height: 118px;
   }
   .container_alt .section_seven .cards .card .img {
