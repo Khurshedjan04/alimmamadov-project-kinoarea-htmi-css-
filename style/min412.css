@@ -1,4 +1,4 @@
-@media screen and (min-width: 412px) and (max-width: 424px) {
+@media screen and (min-width: 300px) and (max-width: 424px) {
     /* CSS rules for screens with a min width of 425px */
   * {
     text-decoration: none;
