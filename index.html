@@ -4,12 +4,8 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="./style/min425.css" />
-    <link rel="stylesheet" href="./style/min768.css" />
-    <link rel="stylesheet" href="./style/min1024.css" />
-    <link rel="stylesheet" href="./style/min1280.css">
+    <link rel="stylesheet" href="./style/style.css" />
     <link rel="stylesheet" href="./style/hover.css">
-    <link rel="stylesheet" href="./style/min412.css">
     <link
       href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
       rel="stylesheet"
@@ -19,23 +15,23 @@
       href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap"
     />
   </head>
-  <body>
+  <body class="">
     <div class="body">
       <div class="container">
-        <div class="navigation">
-          <a href="#" class="search"><i class="bx bx-search-alt-2"></i></a>
+        <div class="navigation flex">
+          <a href="#" class="search flex"><i class="bx bx-search-alt-2"></i></a>
           <div class="topmain">
             <a href="#" class="logo">
               <img src="./style/images/Логотип (1).png" alt="" />
             </a>
-            <div class="social">
+            <div class="social flex">
               <a href="" class="bx bxl-vk"></a>
               <a href="" class="bx bxl-instagram"></a>
               <a href="" class="bx bxl-facebook"></a>
               <a href="" class="bx bxl-twitter"></a>
             </div>
           </div>
-          <a href="#" class="quit">Войти</a>
+          <a href="#" class="quit flex">Войти</a>
           <label for="m" class="mu"><i class="bx bx-menu"></i></label>
           <input type="checkbox" class="m" id="m" />
           <ul class="menu">
@@ -48,10 +44,10 @@
             <a href="#">Категории</a>
           </ul>
         </div>
-        <div class="section_one">
-          <div class="heading">
+        <div class="section_one flex">
+          <div class="heading flex">
             <div class="currently">Сейчас в кино</div>
-            <ul class="onemenu">
+            <ul class="onemenu flex">
               <a href="">Все</a>
               <a href="#"> Боевики </a>
               <a href="#">Приключения </a>
@@ -61,89 +57,89 @@
               <a href="#">Драма </a>
             </ul>
           </div>
-          <div class="cards">
+          <div class="cards flex">
             <div class="card">
               <img
-                src="https://s3-alpha-sig.figma.com/img/b83f/32e8/a2b2eb0f21b711459d9469b73cfb4519?Expires=1711324800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=NZfhHIzRI1-D1JQc5fynT~5gIZZPEdVoYNAgJ2h~tcLHGUM-blXJU2JdoRCe4zWob1YbdDYZcCAY8PXeBnGfmBc64f48oTUlZ9~qzQHrz97JtUy484Xrj0na2Q27SJcHtAkuxfX6uuNGkv-IsZiB~pLtAvsyBlPk9LZiViIvZmfhOTDhWtlF8PCZxGXXqKTS-ZDO-0xqQkPoP3xcFBIKQYGxDmYBkSLibj36tKqSBCFNuyarAHQlXKnGKKV38jhJSi0vnegQV7N78Imx1xbP2A3L5ykHwZpExN~TA7bgOxSQGez79-mALEwfXMgM7T7sSkkYidN5eVUtHEt122p6Fw__"
+                src="https://s3-alpha-sig.figma.com/img/b83f/32e8/a2b2eb0f21b711459d9469b73cfb4519?Expires=1736121600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=BCdPanIURBHIXzOX~D4h~mjsi0AcvvzT7EdPfAbnFwc7YXozStKpIxhxVFKoZ0WBdSR3yht46gAODD5Re~Pag4Zxz5IRtwkAOm7Y~Tdc3Ygco0pPXjSp2ds-N8pLE14-xwmyGywOeQiNkQjYhbWQQ6REesv5G8VBG1sjOvmcTOOxnJYnH8cwqhluRzoReFbMIQ9l9jC1whfUWVAA1jILvslIJJytCNi29lE97dhuLjUxYoB8f~cQmJzkKRZRczelffL6szbRSv6p~j6IMOiSKef4o-lq8yb27zUrL2SyIcpM5V5HfVB9tPuYBrvSgv-XvWO0yWEtnMQ3uBZ85sHG~A__"
                 alt=""
               />
               <h1>
                 Побег из Претории
-                <h4>6.70</h4>
+                <h4 class="flex">6.70</h4>
               </h1>
               <a href="">Триллер</a>
             </div>
             <div class="card">
-              <h2><a href="">Карточка фильма</a></h2>
+              <h2 class="flex"><a href="">Карточка фильма</a></h2>
               <h1>
                 Джокер
-                <h4>6.70</h4>
+                <h4 class="flex">6.70</h4>
               </h1>
               <a href="">Триллер, драма, криминал</a>
             </div>
             <div class="card">
               <img
-                src="https://s3-alpha-sig.figma.com/img/dd4c/8aa3/fbb37e605af92a152044e4cfb0e93164?Expires=1711324800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=L-vF-owpr-z8F5OqaydHfZfvtdACK~TfgUT~eAwx3A0W8hS3w-nQotfQZNQXHM-6Nkrps644xWfaBs~0AA8eQ~7ZQXCimko432Fqi2aEVyKJnEkSY7jvU41N97pZyatI0Ce4LbN1I1pacVPSx8XITJGA648HlBKEJtpyjjF9Nxvq10JGrf3g42l2J2MQv4lLVhD0ba3ooYf1DNsChr3Cwr~r0cCOtal3wg-XGfZ1w3BCfObaIADOpfltjURJ2SWgy98VkCum64D1f3eWiLlzP-INYyjPsMt-N04SCoveb1pyXVQmlDswKLfYEzL-Bx-egDgqvVhyQbb213UxNFHQFQ__"
+                src="https://s3-alpha-sig.figma.com/img/dd4c/8aa3/fbb37e605af92a152044e4cfb0e93164?Expires=1736121600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=dBQAn2TQtE80obNvDcgefeETVqQL7Dq0N2SdPPxsaw0wMLx-NOFwz1qVf0PEUC0b5iDLhl6sqKukyPWzvWM0e~VRcnUAtnKFdbz4D86E2I90f5jLdma97KYWt~A-ytSu4tmvUYHnHHRrGzf1v~~1ZV10D9jKBtanY8~Yxw~xvmyeO61xp2k~EJsEECPvc2MonTVyQ2av10G-w92ObY2d6YxiOAk9KMWRYusqK7MXliFv7JVO5~WHR8AGqVKM2S5E9oATuUsbE8hGGH2kKNSElHyQiThj8YmNTv4tSVeLxU~VCpDKz9Qe0tc0fsH2DZltq83IVUa9cr5dsanmYNdrbw__"
                 alt=""
               />
               <h1>
                 Звёздные войны: Скайуокер. Восход
-                <h4>6.70</h4>
+                <h4 class="flex">6.70</h4>
               </h1>
               <a href="">Фантастика, фэнтези, боевик, приключения</a>
             </div>
             <div class="card">
               <img
-                src="https://s3-alpha-sig.figma.com/img/80ec/e3e8/6bfda0569a86937d82db56235d496043?Expires=1711324800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=kEJ9dz3yBU4HP7L1-wc87bdzsmsMZHcyCicd1holTpgrRz0BvX9xaI~P0C29I4ZnWdat0kNSLZtTxztpGhWNt2RCt~UJRiobWDgktPjQTKQbKqAkXzuoznnfSmet1TKgajeGCemrKd0EXUWV6wZ76wWGyL1kB4IXa8BJR8r73M0Z8MpjonuqXePyi5uWYqTAX4-zSPGcX1kbKRYv9SerzjodKOZAg9ExnbDTarAf3ZAby8oNNOkZsEneLWJ6vQqtSdQSH1hh3TNioGTdBsCQYRnSZzdYn-b6rHkPZJaF-1tyg2Pp4hISMuPpZiWpdMjiKAdtCzXY~U~IWHIYVK63RA__"
+                src="https://s3-alpha-sig.figma.com/img/80ec/e3e8/6bfda0569a86937d82db56235d496043?Expires=1736121600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=jnerhXMeknJsFiJwZOAmosowI2QMWU6yOYZ0I9x-tuLyIB2Wbn4wSm9pZ0TuN5RYStItkc-AczwC8w-akpMnTCOhFhxDax1gLfGtYqgldW-2T3mjhjjvyQXn8DZA7lVlhbISQVP7zQj4cRvuFeGez69f4Z9WOlDXvT6sQBl82~Z91ixeCCtR1iAVwX3WfaLvu1UFM~zBnvlcgVxNx5lfkdHtR0oB1LuPGshUE-4JYF9hZMXL9Ma6dkbYdE4Er9YdGopbOV7Kp8KxsodIzgS6XyARfZ54oN-E9KQl7gy8RU0agnLAtBAwmbCWkpJS4wuKh-3w-rVGK5jRZYfvydn7Wg__"
                 alt=""
               />
               <h1>
                 Джентльмены
-                <h4>8.50</h4>
+                <h4 class="flex">8.50</h4>
               </h1>
               <a href="">Боевик, комедия, криминал</a>
             </div>
             <div class="card">
               <img
-                src="https://s3-alpha-sig.figma.com/img/9850/4de0/eb3a1ae5334897d28f82eb6715d1d0c4?Expires=1711324800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=FwYK0kV2sDoP2bl8YSTUJsUEDli3tVskTP-t~Ju1gP0N8jqYoYPMPE1M6sDC021lsVYnkdBGN2bhsKu2XOPtjyyO8~T4z7h~YzHB4bF4anVXngoX6oSkLjSyJiC4zTuljsq3h0f2gv67ZVmvKkfTjSyxaZ1dzB4gTop8iYXioz9aaB~Wo1Dx-F4w5r9U-ywsLfzhbor-e8-dOPu03L4wFFoZnlJK2NaO8PgtpIgz3JXme0aiTzfyZwR5-ZAQa2dBkCf3-fleE80pRCOd7Lr-PMzUm46PalRknju8Imdj6VjPlWqmODK8y-3Ml5~YLdxn-dw7iGU2C0kfgtn3c8C3Iw__"
+                src="https://s3-alpha-sig.figma.com/img/9850/4de0/eb3a1ae5334897d28f82eb6715d1d0c4?Expires=1736121600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=LK-ts90UBIny7IlO5oW-ad297vhwK5MIGlTsZVNSjotozVRo1p3l3CQ02kD4z~29po5aI8Y4z-f9Zl56jyEUZW48PS9kAx0YYt0Dhtp33WaKlS9nEcMpJPrsGwKP-~mfaj6djnsmuqH6TEWCzkOpUU0dMWgNNwmxKERytHqgferCmtnTkCBUdIVI8NH6MASma7vnH~LZtQd7rcl8pf9SR5~iQGK855VozPhm-6h9SWn58naItmwUYX~ipnNPvioaEwXc0hbs~gkXeQ5ApTqvkaA9MMJRTSV9tI0GvO~8R0zVyc4LXhFlyDOtqgylXpYa7EYywHCc6Uixjdl~9paPgw__"
                 alt=""
               />
               <h1>
                 Ford против Ferrari
-                <h4>8.10</h4>
+                <h4 class="flex">8.10</h4>
               </h1>
               <a href="">Биография, спорт, драма, боевик</a>
             </div>
             <div class="card">
               <img
-                src="https://s3-alpha-sig.figma.com/img/fd6a/8c28/bc18998a70fca08e2373c4fff04d7472?Expires=1711324800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=AP8LphQ0nlDEJV75lPKpygwbDSXiEluzClBv2ALtLewBGvQoWeZb8hvInEIq89T4ipLK0Ch3OstFQmSzP0TEwVW4kqh7yVS83mO6h2LGsabVWLgi7smQb1Y6OePzrxE9HpvwIDkhBC~oOesx2bsVI0rfHqvJ-8BnXgyeXN~~qRpTbh7CP3gjxfHQSPc3hlLOeHR1uTYsCkM7SIR1RshbKMzZjf70GJcNV2UO6kIefaki31g7coBE5eQjA85MwJTdVxDiVtmeXT0oQ7WwaXM~ilz2gqN~g55mXajNG8Wiord1sahHNcGF5j6EQROP3uude-O6f3rNBkUn6EEPVAoLOQ__"
+                src="https://s3-alpha-sig.figma.com/img/fd6a/8c28/bc18998a70fca08e2373c4fff04d7472?Expires=1736121600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=LEncZ6MUecOhL4RC5oXptBZbQlqc0G2DDyk3Du78mY7dlFOSoN~wkNJjliHkY~MpUBgVxSpty5d3rQFRvqjxPPRUhlDfjQlSC~7Gz5a6efuDivi3ERXHz02h-3yr2gjcImYD7IkEPb4JtMkFPN-a9uXJ13O9qbqhmAi2eNOGO6SxBv-vw30OommGoE0SVqzNgi4WMls9wCTBqqfV1-rNeee9t8zOzmnrbApb4AESYr3oiK4oEt9HERpZ~a~n21swgs7dmTsUs-oMWo1IfWbQX0uW8BKi1Uv2WZpw0I2ySBJuqsCfLsDMmYGg~PwCK~gD0pPWZ5WGd8Jc-b9e576PpQ__"
                 alt=""
               />
               <h1>
                 3022
-                <h4 class="neg">4.90</h4>
+                <h4 class="neg flex">4.90</h4>
               </h1>
               <a href="">Фантастика, триллер</a>
             </div>
             <div class="card">
               <img
-                src="https://s3-alpha-sig.figma.com/img/a370/c9d0/0d47fdc35193c70122766331bdaa95cd?Expires=1711324800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=a0UrR8mkk4AqkFbhB6rJ122CUmQbqOeaAZIT9folDrNjsvo0P7e6oeWC~9KBeibZiksnHxDyyPFc-EEHCQQ4u8im0nxALy3brUN2eRf1WvUvMi3-G1ipFZFqIWGRVeVExsPhtH-T92zCM39k32BeX0~cxrDYzxDK0gAeS~4q4GjD7X2lCFzp6EDMQrBFpk5iZX7sERRSD6e6rk~7RUhgnsgt2xZEZAVyvbWmlyp-bEfokTNEiD4H4TTP4nwf~IXxTviZUGLGJkd9fvqIessPjQyrDnPQhGjc5SGtnHOQ04uKoD8vTWw6KHYp56nZyhd7dmqDLCaaPExS76NYMU5EuQ__"
+                src="https://s3-alpha-sig.figma.com/img/a370/c9d0/0d47fdc35193c70122766331bdaa95cd?Expires=1736121600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=Oq45tPRjOSdvSHAgSLOzI~mHD36LhG8SLy1WL-yFjoPUcTgX~aWvQuadBNHz1F3NJUnRyqIMgo8qsACDgwsSGvuBw1ILdUSJgy1idPirMfqbP1CoWnu247ltWxI1heHYlJC6UUzF~Pi~HZoebRkU1DpwUsUFiEIcuCpqDv7hiD2hPtjkpb00jo6bxtL6aZxnQSNGizkEMAwQRPuYEKjPbYhTKj6XambvE7RWr9ADTQCnuOMq92~6QqJvgCVmOEHqKYhXqx~DjpBI~fSjhmrUKYs82hHuhENmt8TaOz-R8TKjkhkSDkhnyQo2lnz2vzutHzlznnoJdmGfS49hNiUDyA__"
                 alt=""
               />
               <h1>
                 Хищные птицы: Потрясающая история Харли Квинн
-                <h4>6.20</h4>
+                <h4 class="flex">6.20</h4>
               </h1>
               <a href="">Боевик, криминал, комедия</a>
             </div>
             <div class="card">
               <img
-                src="https://s3-alpha-sig.figma.com/img/fc65/0948/abdc6a25681c4f1e73808c787a4d2514?Expires=1711324800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=ik9Mmwkk77~EjJo1Ka2YP0c38owZKEi6tRUAXBf3hNN7u1QV3R1Myz17ubY2XwWkgvtjB13hxyDsazabZnGoiDy7D23PIvWtMdyqOVO5dpbqI0gfGv-0FWg60p09S2wRbzmWhShClJyQ57P9vDnUvGu0Ve0X1enJdT-wutrmj-hrGRVYFzmJ2WWWnYMo~kcl3zwg1eeEOdS45L41VYAVwQbSEulJosesqc69Gjz-rrYt3zg5S51bsHijtG8zg88PeoiyeVs6iT02HseFLnbJVw0hGlTfzJFXGN82HDGLSqUM61deu1Bj9ZKdYPaOGyMNjIKhVpn~0NcIj5zQf~TfYg__"
+                src="https://s3-alpha-sig.figma.com/img/fc65/0948/abdc6a25681c4f1e73808c787a4d2514?Expires=1736121600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=dRXApt4jPZToiIDR8eGbz1~zWuuobU8TL4XiMLF6pDoK98sUBLxO6Iq14Ym2sA-AxuvaKzdUhjfnCDg8T3hkFdw-Hr0RQfUYACw1O54mTd0sfWBObXXaKkcua9A9edLbXFe6UWtEnblbCQjBsKEQcPBm8kr9wHShQ-EHLz~2VsVW-QuYMbrOR-AWn14MpLhNGzExDDlUZMtaOeUtByuJhHM6YabCwJ0~vtBduZFBCOvUEHmr5owdS-kI1spUZjA7~6G7VNcTUxAHour6sJqltSGRoRwap621JjwxnO8IHv~-ezEs5WeeFlvg1CuLVIXcaT33mEbyYiVQIDAE7Pz8qw__"
                 alt=""
               />
               <h1>
                 Плохие парни навсегда
-                <h4>6.90</h4>
+                <h4 class="flex">6.90</h4>
               </h1>
               <a href="">Боевик, комедия, криминал</a>
             </div>
@@ -162,13 +158,13 @@
           <a href="" class="button">Все новинки</a>
         </div>
         <div class="section_two">
-          <div class="heading">
+          <div class="heading flex">
             <h1>Новые трейлеры</h1>
-            <a href="">Все трейлеры <i class="bx bx-right-arrow-alt"></i></a>
+            <a class="flex" href="">Все трейлеры <i class="bx bx-right-arrow-alt"></i></a>
           </div>
           <div class="main">
-            <div class="video"><i class="bx bx-play"></i></div>
-            <div class="below">
+            <div class="video flex"><i class="bx bx-play"></i></div>
+            <div class="below flex">
               <h1>Форсаж 9</h1>
               <div class="social">
                 <a href="" class="bx bxl-vk"></a>
@@ -178,21 +174,21 @@
                 <a href="" class="bx bx-dots-horizontal-rounded"></a>
               </div>
               <div class="likes">
-                <div class="l">
+                <div class="l flex">
                   <i class="bx bxs-like"></i>
                   <p>3245</p>
                 </div>
-                <div class="d">
+                <div class="d flex">
                   <i class="bx bxs-dislike"></i>
                   <p>420</p>
                 </div>
               </div>
             </div>
           </div>
-          <div class="minor">
+          <div class="minor flex">
             <div class="box"></div>
             <div class="one">
-              <div class="mulan"><i class="bx bx-play"></i></div>
+              <div class="mulan flex"><i class="bx bx-play"></i></div>
               <h1>Мулан</h1>
             </div>
             <div class="one">
@@ -200,16 +196,16 @@
               <h1>Форсаж 9</h1>
             </div>
             <div class="one">
-              <div class="vdova"><i class="bx bx-play"></i></div>
+              <div class="vdova flex"><i class="bx bx-play"></i></div>
               <h1>Чёрная Вдова</h1>
             </div>
             <div class="one">
-              <div class="mesto"><i class="bx bx-play"></i></div>
+              <div class="mesto flex"><i class="bx bx-play"></i></div>
               <h1>Тихое место 2</h1>
             </div>
           </div>
         </div>
-        <div class="section_three">
+        <div class="section_three flex" >
           <div class="heading">
             <div class="popular">Популярные фильмы</div>
             <ul class="years">
@@ -225,45 +221,45 @@
           <div class="cards">
             <div class="card">
               <img
-                src="https://s3-alpha-sig.figma.com/img/966d/3165/3c4939dd468791c3fad34baa6c2c0bf8?Expires=1711324800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=WYOyLayfZ5ITSADozolSwXd~HT0Stg81Kga8pCl6ZIk2ZClHaJYpZm4gGE5ggTZxlIBQvszQbJdjt4TtLggVwg1qFnIGx8yEzc9gzxzd3gRZq3WGfVwc7CLxEN2w42AWfaGHMY4ey4x9fG6yT-nYIdn4eW~flbDxeuYyOz6FZP8sGfioTMWSRuyrWsF520GQmmLc-pJXYoy5T87Yo4cQFnobu1ZWKbB~ZJFViigVKEBYLKL0CtN-4ybrQvzr~H3vllFowmbIFZD3e93yDjUc5dNVcodITABvJas7asWX3-AhkfDTAtetQHyuQQfhaaZ0lbLoYAugqnO0c9xcVNekWQ__"
+                src="https://s3-alpha-sig.figma.com/img/966d/3165/3c4939dd468791c3fad34baa6c2c0bf8?Expires=1736121600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=Per7iyVe96-3Xq590CO6ZIejgBAiWBP1e0884DzjQJc5ZLSPgUepMpsNQxLyB9leLKl5T9AxmmpM8jPYdWycbSmXsVJHrI3mOoFEvs6taY~RYitWq20XPkMbBdf~ZGiOa~2ndMqZ~oUTRaCbpoMG5uEEwYc05yhCgsBePJ0WLm3ugzLv5i2Hk9n8-DgNndRY~~yJdtDMsZAX4WYAFwkKxFRgJp2hlCGyMLoyGdHb6r91MGkMzxfbhS9dexzX2wUTxRyi6Iyw4P0M9R8FfBXS37rCmo27jG8r0hhSfWWl0PSFXKKgmaFL~HPZ6WM2HVrrmIRds9TGhvalMAPkwcOJfQ__"
                 alt=""
               />
               <h1>
                 Джокер
-                <h4>8.50</h4>
+                <h4 class="flex">8.50</h4>
               </h1>
               <a href="">Триллер, драма, криминал</a>
             </div>
             <div class="card">
               <img
-                src="https://s3-alpha-sig.figma.com/img/7f20/67b2/2ebd22afe22f99771071265acedfcbf6?Expires=1711324800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=Rl8Ktn2HcjELNcFvZgMIt2hDGKaqX45-I1LnYgZ1JwUucXfnSK6~ZQ3tLPVS1nM2xBPLLHZZxtAsoFIwpuv4zzX~uXqqo9aJ~B0gWjXDV54EAvxBIkmGF03sdCKvP0qMXG2RclMJFi51~yHV0a6dcNwfi6GpKcn4pTwRRmQm5RYL0UWntVWZarTGMgM2TzYzEUDtYIlI45x2KKeSAJ0fPdesujXLAuoFt~blZPRTjuGvFajpVH0L3wmFjHQUwKZngmtrpVJqy4TWeuHkLXVQLlN2fp6X-toNVh5FL55oSlzgRUujxdyy-tVV8EP228Vop5DIOMpj1naGs2E5UmabZg__"
+                src="https://s3-alpha-sig.figma.com/img/7f20/67b2/2ebd22afe22f99771071265acedfcbf6?Expires=1736121600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=kbXoYLKsY7dFxRPTAOE~qo-Cf3JBoJzFEmdHrjYnDgtA5UMruhhoPsZ8Ou619MtIpsXa-sCS2Lo0LFlZb5JiqNvahYtlpHQZxgWouJYbPAtomH3RkWgsrJNKxlSDhhJAIJ-FTXi904rzcvHKNkxy9VKfm4fnfavvuIZRWoGwuusKDzyrSV2dDUo8P~bT9-IuwusuxdA5rRiYt7WRD04-i0C11d2dXZjvXsNZH80y~TRjYbgH5xsqBGYJyrMeXXjgRC9lsJjaSzIM2oHQSzBaz63vfJZsghKibBZmrXtFjmu0xQz99ZPivvsIQau1bpxvl~Bf2Q8mRkl2n6udAc3ImQ__"
                 alt=""
               />
               <h1>
                 История игрушек 4
-                <h4>7.80</h4>
+                <h4 class="flex">7.80</h4>
               </h1>
               <a href="">Мультфильм, фэнтези, комедия, приключения ...</a>
             </div>
             <div class="card">
               <img
-                src="https://s3-alpha-sig.figma.com/img/094b/8f74/0a263fd6130f21091bd16f61f2113632?Expires=1711324800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=O106SmoC-aw1EljM47nO06Cbi0rUAIsiVqvhlOLzMLvgRVi2kLj948kZt4juu0u-hRjRDWEuxlf8bjJQqiUK-iGgwI3MQy4m5vzMYn9Ey4j24Tcit5nPwzihlqXzlYbluHR6smqxYawWI2b-1~6RAahEFSYoSVSfVeN6UDyTQ1Nrxx5dT2t7fxpt1O40H15MJOm1HvD23VZc9523AS4teXeCJZyQfA5z1yR-v8Z7hsaEoiGMNVyeSM~jvAVboKRtM8hjw1XelG9AQr731mmLBWPSZ1HodqHwHjwetLCVAUWLoOqs4RzYDJJ6u4zgwBYR~-gxuXHHte23n55Fju~hHQ__"
+                src="https://s3-alpha-sig.figma.com/img/094b/8f74/0a263fd6130f21091bd16f61f2113632?Expires=1736121600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=CwAO9Dkt7VNORxXy845s19FMKl-0Z~BGMV~Bq-6xjZ-LGzcWVPaYbSbWV2ItssGemzgdH26aRIontmGThKWIQbW8MbOBWF3ejbB-~jvg09EuyL4fWGIgULw7sQSerGBDHtFPzUmqnFMwvEA7OTyKtiKpm22urZf2a5yCLpMAAY2med~i4yaWxVWkuFe8Icn6cfJWd-AAeSVvjtoPNsTnQ3htM-XNH79dGPubOJWtNjsuZ6UkVSsIJAtKoSSEPYpkTWcZDuMyn~OaBeuPzIwEqcaAa6b8QJHrLIiDeMrCSUNuM5xCofq1zlBDQveMtiUJf0yaH3XwvjnJU2elDgRoEg__"
                 alt=""
               />
               <h1>
                 Однажды в… Голливуде
-                <h4>7.70</h4>
+                <h4 class="flex">7.70</h4>
               </h1>
               <a href="">Драма, комедия</a>
             </div>
             <div class="card none">
               <img
-                src="https://s3-alpha-sig.figma.com/img/7a6b/1ca9/3ef7d6f8d6cddff84cfda4dcffdad6ac?Expires=1711324800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=FbOzVCswWzzYbptr0Ghy5s7xzZcE9qKAoiM~m7E3lA~M1naQVDWPZesK79LtM5BrDsvOuxO5p~RBBTMt~GaN7PV92EJmX9eXbmEcdtEi~w86dARyWduqxDY~fD2plUI7Ww2GMcrIabJQgn~y7YvhPASL39LOc6-PBxT8Yuho-AM28RPx0wJU~ey~ipNmHXqNFxlILPwH4KIQdoReR3UkvpyugZZ4JYAABH6lwq~odVMB-vwE9Uol5iCy~vuhnIpxzaNMp-WwCXjflvP7ojn5vUaEY~SD8IyYWGo2J41B2euHlF-iG90ZOMO1kIqcaaq12keEV~1GrXO1kSDv5PwO5w__"
+                src="https://s3-alpha-sig.figma.com/img/7a6b/1ca9/3ef7d6f8d6cddff84cfda4dcffdad6ac?Expires=1736121600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=Xuzlohq-ios8Ra1FkJTbyu19u0uYARroFwifNOoo2CogeMvg503TrM0AlunhrGy8tY5q5apjygm1v8srivf2GHkFKCg2wkBE1sZ-QS7fqvAl0X5rGHtKwoKhExKFwEnZuQUwEyRrCAfnSRXmBrWdwTTp05OSoMYnL1c90czzW5BUdgUWrbmzMpwgNLj1BlxNAT5ceAWZlWNzAHe3zo-4pdEKVAm5Qlfm~AHI1jcuPDUYGx5ii~jJiT~kzFL11VRuahgVTMJB46OxqZu60GiCwtis~R2eo5cIjdaTuv9LTYkoa97iKdw2kugMy7g9glUqIckXaTUQmvmwU-P4feicQg__"
                 alt=""
               />
               <h1>
                 Солнцестояние
-                <h4>7.10</h4>
+                <h4 class="flex">7.10</h4>
               </h1>
               <a href="">Ужасы, триллер, драма</a>
             </div>
@@ -275,7 +271,7 @@
             ></a>
           </div>
         </div>
-        <div class="section_four">
+        <div class="section_four flex">
           <div class="heading">
             <div class="currently">Популярные персоны</div>
             <ul class="onemenu">
@@ -336,13 +332,13 @@
           </div>
         </div>
         <div class="section_five">
-          <div class="heading">
+          <div class="heading flex">
             <h1>Последние новости</h1>
             <a href="">Все трейлеры <i class="bx bx-right-arrow-alt"></i></a>
           </div>
           <div class="main">
             <div class="video">
-              <div class="top">
+              <div class="top flex">
                 15 Апр 2020<i class="bx bx-show-alt"></i>242<i
                   class="bx bx-message-rounded-dots"
                 ></i
@@ -360,9 +356,9 @@
               </div>
             </div>
           </div>
-          <div class="minor">
+          <div class="minor flex">
             <div class="one two">
-              <div class="mulan">
+              <div class="mulan flex">
                 <h1>15 Апр 2020</h1>
                 <h2>Как изменили Соника с последнего анонса</h2>
               </div>
@@ -371,13 +367,13 @@
               <div class="forsaj"><a href="">Читать новость</a></div>
             </div>
             <div class="one two none2">
-              <div class="vdova">
+              <div class="vdova flex">
                 <h1>15 Апр 2020</h1>
                 <h2>От этой новости вы будете шокированы до завтра</h2>
               </div>
             </div>
             <div class="one two none">
-              <div class="mesto">
+              <div class="mesto flex">
                 <h1>13 Апр 2020</h1>
                 <h2>Вот это, конечно, да!</h2>
               </div>
@@ -386,7 +382,7 @@
         </div>
       </div>
       <div class="container_alt">
-        <div class="section_six">
+        <div class="section_six flex">
           <div class="heading">
             <div class="currently">Ожидаемые новинки</div>
             <div class="prenext">
@@ -399,7 +395,7 @@
           <div class="cards">
             <div class="card">
               <img
-                src="https://s3-alpha-sig.figma.com/img/b83f/32e8/a2b2eb0f21b711459d9469b73cfb4519?Expires=1711324800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=NZfhHIzRI1-D1JQc5fynT~5gIZZPEdVoYNAgJ2h~tcLHGUM-blXJU2JdoRCe4zWob1YbdDYZcCAY8PXeBnGfmBc64f48oTUlZ9~qzQHrz97JtUy484Xrj0na2Q27SJcHtAkuxfX6uuNGkv-IsZiB~pLtAvsyBlPk9LZiViIvZmfhOTDhWtlF8PCZxGXXqKTS-ZDO-0xqQkPoP3xcFBIKQYGxDmYBkSLibj36tKqSBCFNuyarAHQlXKnGKKV38jhJSi0vnegQV7N78Imx1xbP2A3L5ykHwZpExN~TA7bgOxSQGez79-mALEwfXMgM7T7sSkkYidN5eVUtHEt122p6Fw__"
+                src="https://s3-alpha-sig.figma.com/img/b83f/32e8/a2b2eb0f21b711459d9469b73cfb4519?Expires=1736121600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=BCdPanIURBHIXzOX~D4h~mjsi0AcvvzT7EdPfAbnFwc7YXozStKpIxhxVFKoZ0WBdSR3yht46gAODD5Re~Pag4Zxz5IRtwkAOm7Y~Tdc3Ygco0pPXjSp2ds-N8pLE14-xwmyGywOeQiNkQjYhbWQQ6REesv5G8VBG1sjOvmcTOOxnJYnH8cwqhluRzoReFbMIQ9l9jC1whfUWVAA1jILvslIJJytCNi29lE97dhuLjUxYoB8f~cQmJzkKRZRczelffL6szbRSv6p~j6IMOiSKef4o-lq8yb27zUrL2SyIcpM5V5HfVB9tPuYBrvSgv-XvWO0yWEtnMQ3uBZ85sHG~A__"
                 alt=""
               />
               <h1>Побег из Претории</h1>
@@ -407,7 +403,7 @@
             </div>
             <div class="card">
               <img
-                src="https://s3-alpha-sig.figma.com/img/4ed3/c3c1/e29758c77d342d330f10ebece699ba5d?Expires=1711324800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=CFA-Pt2PBOVs5oaCf0an6IK2N5aKk18FiVIO0ovde2RUgdMW6SB3izraJUSgsAeS7-m-~q~ZQk9pTydyAFOs9vZ3OTFUlagmU~epi1PpTEa82OBzJmn6VmYUNyyZ-3lWw4rauSJApvGYxwBwA7obvLiYl1HC~QP4q6YjrAq-dXO2aurlz0RPSS~7Onm20V1a~l7Tl23-uuUFqcOsdrhik6Z65YTpgXFLqRetC2P1rsD5SpPO0CCduKqvhJUfsa5cCQCmr-N3cS~5fbjW13WJ4fX9DHsUl~fQVZjyYyyvq9znqRxg1-ZpbgQNfly6Si7K2UXhZRG-crrFi66eXVPKcw__"
+                src="https://s3-alpha-sig.figma.com/img/4ed3/c3c1/e29758c77d342d330f10ebece699ba5d?Expires=1736121600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=TP86ZvKGxN07ZCvzQkLGfLcgyTlMuBMllCaXFiKocTbgSaFK1f6pV9CFXyQvPhKtiJoSQd9NN-6hHjHOXdjDJi0ZgnVAGFcoKcVm5DAA8U38OQfBqiazAUFK4JMH2MHqJCGLcXN-m3fFmHTCZ0qrM5w8YauG0NwDgS8Yl2VSlATS6CXf9ml3uE50FIAwhTFLzucTTvGgaxX5MpsHrz7KJ5wZybMbdsmy54oz4dxi0JILNPSZFB3f~saAyhumrl7BqA08eVves2qj8G9rQHVwxacCUDxoCaZ-06hd3RmDJfFlzoZh9nBENrR4vNLNRESQkv36DabCmNowZzWsOV6Fww__"
                 alt=""
               />
               <h1>Прощай</h1>
@@ -415,7 +411,7 @@
             </div>
             <div class="card">
               <img
-                src="https://s3-alpha-sig.figma.com/img/12df/0dbd/81301d3f5187a09c4ee2147823804499?Expires=1711324800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=j57N-sAaBsDMiE5GnzLibykCwocoN0Zfqjc0bGcuC2SkJwcIzhWcxTAUZjjc7gdC3tWQtWlxqWgRaE5fG3oQE8ZMD6D7xIkdwWDpx9PLyD7qPc34-CWkm4~KPWjWh4CKVHH5TkYL2PuTe1XVGAX5lrd6xfyoR2Ym8ui-PO-nGd6vAWQteGKYtBF84Eb1bMMx~ykijYpH-mQM3dL45BVGCkRTPvt3AfRptJ30qZfBKoaYlMTnR1HRIhJ3CAcDPLs4Zrd7nisgB2l47F6ZdtN5qfaDWCeQbhXVIMSH48~rUyr-DkuYlUbzzNhHpDKJPLLWsMIJiZIagjKEZentwo8FaQ__"
+                src="https://s3-alpha-sig.figma.com/img/12df/0dbd/81301d3f5187a09c4ee2147823804499?Expires=1736121600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=dDIeTM~CM~XHXbBL8AI09byq6LR8~Ehci9wppfsXEgPnOalW3x5ELjibHRSwcvN9HWFnBRJ0q6mHhc3TCETQPtKFJiBVUHSgz3zawCG9DeI3XeSNExHkH3ZN6-vtcQQv8~lqlEdlXLXSdaLaCyrGvMtsWRgtYdvPO1CmcNmbMQ-ZiXwb1ndqKCKemxU9z8t4e977GsYWtV6Wz4Goxvt6vtlJTIhHwKl~5UUI6ro38QEcvujz0ixuLlq4447Rs0UkEwDqZuNg~XgyZGvYUiP58Vi3~2pRNdwNNDi1fT8jgD7ugBQj573hhoRlGNlg9dvKiZiEKJLHE2ZOyta~WB~JHQ__"
                 alt=""
               />
               <h1>Дружить по-русски!</h1>
@@ -423,7 +419,7 @@
             </div>
             <div class="card none">
               <img
-                src="https://s3-alpha-sig.figma.com/img/acdb/4198/db351b9bd19b0c782c45b6badd5e6263?Expires=1711324800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=ZQ-SuaNauuXIx2h~5lDBW0cWwnohMqp02GU9E3c4Li9CN34m0dts4bvLmQv-XB7eWncG3ca26E2xa2QtBhwx3U30EVlSgq8uRo74vC~vHOYQQQEjYMx4MjXxNofC9fLCio~DIueEr1a~nIATJkC-38RI95~eXHXLjhEH6bxtHjDrZwLXQW7w3ppvGGICKoPlLrgwEtPjKpl5Rc2f~DnzRljTQ3gI5zjS7CA-FL2zZLDtabDHlaL-rBgFaPre8enidzP2JV2rJMnISMehESptqNu0VLE~kz3QoID3ZY9pVYcIHZ4VvqwO-z9izUzvKYoq4JhIdC0J~NL4Z3Cit3-Usw__"
+                src="https://s3-alpha-sig.figma.com/img/acdb/4198/db351b9bd19b0c782c45b6badd5e6263?Expires=1736121600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=MDyWvKY5813q2yalSnz1r6jCHuNyIN3JjiyuCT~K2ioehXLd0kSIfWjCXJ-AXIFhPu57-bI2conmMmxjG~ruOsfbUefUT5j4~q85JwuGhARW-Q8TNRRGyFdxXdLtQVZZqbX7L2COPRPGJIuU-D3jSX6PoxxS1TJLrYH~kkHm3NYbrZL~5ICAS6f3wMpGHwKLyHLajbnEAW1j3BIxz~Ecoqn5Hd7BlpW0hQetkuqnLYJY9NQXGAu0H0fNbLW1x8LSkqL2suIGNSYwbPNa7v-PhASS3eN35N9RyF2z4aTKlMQkI2AwMGMW2ffHvXLEbPAgnX-NvuHiS~7ZGMTnoTX52Q__"
                 alt=""
               />
               <h1>Приди ко мне</h1>
@@ -434,7 +430,7 @@
         <div class="section_seven">
           <div class="heading">
             <div class="currently">
-              Кассовые сборы <a href="">13 марта — 15 марта</a>
+              Кассовые сборы <a class="flex" href="">13 марта — 15 марта</a>
             </div>
             <ul class="onemenu">
               <a href="">Россия</a>
@@ -453,7 +449,7 @@
             </div>
             <div class="card">
               <img
-                src="https://s3-alpha-sig.figma.com/img/0660/17c4/f522a197e715430b725bc9f6d46ef340?Expires=1711324800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=VJWBgvKbs8Mp0i0hkEUOu08IQmwGspMfMO7ZQl5KNlwTyK8p1JZC7ti-5DkZyqcu33FqhsJarGDez30OeatwiVXJxR~sEw0VqGS11yLqgZGc1D6SHoqzRCkgxoggZ7~n8xSlMD5PGS6wWkn7i11jTfxU5Uo8vjY3FHhkFpvkWncbL~vzsQP4XXVzEUtqm~3Mf3a6cYx0vM9tGx7xMTI~n8Hm2ERmKPNjwtjZSUsi8qwhtXy~EHqZUJiQtzjTDECUMWFq5ngrhsHNTwIAMX0jzM8JqJHontZUKvqkbukjGRrjpgAKJt1gsXXUtsd095tyJ6wC2x~ERdV2U~vF8Ew3PA__"
+                src="https://s3-alpha-sig.figma.com/img/0660/17c4/f522a197e715430b725bc9f6d46ef340?Expires=1736121600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=YfkLMwfbQUPW08jQozh3NI~PKDCc~4LcH4xwc2kdCYsf3CnGZ2as49eQdruzr1~aa7YCGJwH0v8IvlbUuQuLllmGtfKh2NZxRjcQXkdL5igMQbe5Kk3R2mZ7nhBBb3DNjwRRJ-RQLAwp0DX4Qx~vESlOi9hQMDBlLMQ2v5GNh7z3wBwJFGcON3smax67yb9LoE9YtQIbrJdiJe3qSHY4P1sWIH1J-A5~7fFIroIJIa7w8rz2fWvImMxx7NP-MQi0c8DaCbnC9~3QU~PnKiUK~MiONSlAEO2ea7sv3TQkRsnP0ahBVRFnWvGer3DAngJYVJ1QXqSeWS3E3QsZXAvnDw__"
                 alt=""
               />
               <div class="main">
@@ -464,7 +460,7 @@
             </div>
             <div class="card">
               <img
-                src="https://s3-alpha-sig.figma.com/img/1ae5/1395/a696b26b618bdb6c25b1e5cb129a3d4d?Expires=1711324800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=FZDoId~WAkuCaUQz6A3nCClfyKwUChSfn1p60r0MOd3sOXZXyTVfepgKuXdlPJoDJVVzodseNAn-nMxDOUTXIV3lefHFGFUEFXai1gII5JxCXz~ZtVfMFHm-MAB2LVR5s9pY5Gl49wpTxtWXP3O3CWH~zGn3L-tj1ru8d3r0kucKtdzd-4O-0leuTwy5XreI3R4CBuM5-~0pDXceF8NqXFc4XAoIB5wTzMnfhqTvWDM-ArC9~iJVUA~xJILX1y1PxLL54Yl5B83~MvztMeHJI9E8fE2RRqVydChKYeP~5fVjAlfLrIAlH-xhXVC7XmbKHnq1xAw~IhWRHt-jq1sdOQ__"
+                src="https://s3-alpha-sig.figma.com/img/1ae5/1395/a696b26b618bdb6c25b1e5cb129a3d4d?Expires=1736121600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=YROmdUy4G4VlCTt72LZsM9YRDCFw9qLryf6Kj8Bs-D9HklBmxmZw8iTH42JCkK9W4opJ7keQ9ctWpYr8YR77VRHNKC-HmRdsgW78XjghzaudliXQEU7vkhpRx0rzPXNep6HQVAnV1tTnTe1AhvdipFMmG~hzvrj9nOrypEfLinlMJwk-TpUVimF28ebJM-jAA3ehVMUWdjds4-hVeop08PINsaXHss62Buz8hya0lX-xfzBeFMRZf8vAc1kHBRZPIGPwt6UYVwdw6gWfvP~aPgN4gqIS853RijmzLCuMkvtlcGOLXH44fxcfGFbZCOwzoaNj7JlTJqz1Ttu7DoNZ4A__"
                 alt=""
               />
               <div class="main">
@@ -475,7 +471,7 @@
             </div>
             <div class="card">
               <img
-                src="https://s3-alpha-sig.figma.com/img/b0f9/7202/b9f5c7ebf961985bdad6abd15ac346b6?Expires=1711324800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=BWTdXh3bFGx9aAM9uEfUG2JUqoSJfvGDZucX6EmMrmOTmUMFGIYJ2qKZdiZ-jZXNZ6~x1uEZtaAX82wtuY0F4r5SAsU-jYhEtLzLzvA5Zsws8beR818Y1tSgNgdLG0clxDAZtiZbsz-WKHvKeZuO8LejLOf2LeotReHXPStSuTSZ8M52b3vkh5RaljX4uzbyqlPb9etNsM-vzhH9Ft2QJzg5TQR0O2LKIiSHkV5BDQ3wMH-zaTIKrmI-QB9wwsGoatBx5PrhqFz3QJQOUdulkHsmXSe2qA2JszLQkRLaTleaTHmOdg9F~pY0i~0EOhAF273K7lvmHlqI7wA7oksNPA__"
+                src="https://s3-alpha-sig.figma.com/img/b0f9/7202/b9f5c7ebf961985bdad6abd15ac346b6?Expires=1736121600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=PCqi-mW8-Qjhychgkt3Na9RZI3vqD1UgrvluD645ulRRL-wxZhaGGcFX0~I9MZhvzXYdsm2EVZgcTNhDdV8aT9AGOJeVmQWIon2RVYHtT0EqW0yW8GqGdIxQOCW5CtdNW-lPi8qyHYwQ-cXwIF0T7dCv7qqT54o7ch~tm3Dlk93ENP82xVF3S7~dUTw2SaspxE71aCAMDyUF1jJnnT20WY1jJMr7F5s2ht-jwlc~hEy3H80Leg7qHIgJNIdWYlsa~gzZYwezZouBDNC1FbFiucxHaZ4M1RoyAUDgeKGFUlHBCDj6njH~o1g3-GlycrL9qc54y3XbWKr5enUDH8hT4g__"
                 alt=""
               />
               <div class="main">
@@ -486,7 +482,7 @@
             </div>
             <div class="card none3">
               <img
-                src="https://s3-alpha-sig.figma.com/img/1518/ac5a/93bf814810b576108bf19dbd7c8c02f8?Expires=1711324800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=mXb2B0fC9WVBWWGtgUrrIZsGFMEkBBymado2qOvQgcbFpY5UIxomdlEjN7Plwh37uSCuHEXARSNIdc-iJlCcBWX7-3Be9KDgpZq7saegSaXLC7DpabXKp6eiF3FM7IyQUnxD2~h52yBhpQqIDn2e-Clfatkq~eb7TtxisRgDViSoWgUcnvc4YOvjT11f0vvRHkF2ya5Mx7u5bvbZXC7YtT2a-37RYcJEM6oj4-OjMS9jYiqk2gdtIJRelyykkVBI-7nQYgNjZJkRlFGqWjDEco8yIGy-NtDwdOsj-ESVwgfcWWV0BLu-QAM~xido1L8az7yiLPruVTAyXbodt-p1KQ__"
+                src="https://s3-alpha-sig.figma.com/img/1518/ac5a/93bf814810b576108bf19dbd7c8c02f8?Expires=1736121600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=cp~4UKQ8shky~rLEtBNGEBJV0LOou6WkklYXp5U2MoaJGTsev7EEjJSmWFejZ42~LrAtsukB3W1nsxpIwcfS~NSLSnVWvXM11j4zpT263tvKuF78KyySYsFV14TtL7HBaWn1hhJ~hL81ulVhf3Z-AUwaVZZfoWY1EANqrV273s9sICImCjAj4Vpq15e4cEB~Id~K-o1kMJV3vxGE8i~97mtqIL6j49aXt4NPXbBAB~qIF~YmOi~sqzBYTK~foGKE3o1Fq3DHP3GeUZC3nHj07NnacgSi2v03PRgJe1NTevxP75As1b2b2EHv1C5gVO-qiDOpmJhpVwogRS6Oe5F7Ew__"
                 alt=""
               />
               <div class="main">
@@ -497,9 +493,9 @@
             </div>
           </div>
         </div>
-        <div class="footer">
+        <div class="footer flex">
           <div class="main">
-            <div class="inside">
+            <div class="inside flex">
               <img src="./style/images/Логотип.png" alt="" />
               <h1>Подпишитесь на E-mail рассылку</h1>
               <p>
@@ -514,7 +510,7 @@
                 />
                 <a href="">Подписаться</a>
               </form>
-              <div class="in">
+              <div class="in flex">
                 <input type="checkbox" class="check" id="id" />
                 <label for="id"
                   >Соглашаюсь на условия
